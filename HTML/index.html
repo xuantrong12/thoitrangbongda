@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portugal Football Fashion</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<!--================ HEADER ================-->
+
+<header>
+
+    <div class="logo">
+        <span>🇵🇹</span> Portugal Football Fashion
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#home">Trang chủ</a></li>
+
+            <li><a href="#about">Giới thiệu</a></li>
+
+            <li><a href="#kits">Áo đấu</a></li>
+
+            <li><a href="#players">Cầu thủ</a></li>
+
+            <li><a href="#gallery">Bộ sưu tập</a></li>
+
+            <li><a href="#contact">Liên hệ</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!--================ HERO ================-->
+
+<section class="hero" id="home">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>PORTUGAL</h1>
+
+        <h2>FOOTBALL FASHION</h2>
+
+        <p>
+
+            Bộ sưu tập áo đấu và thời trang bóng đá của
+            Đội tuyển Quốc gia Bồ Đào Nha.
+
+        </p>
+
+        <button onclick="scrollProduct()">
+
+            Khám phá ngay
+
+        </button>
+
+    </div>
+
+</section>
+
+<!--================ ABOUT ================-->
+
+<section class="about" id="about">
+
+    <h2>Giới thiệu</h2>
+
+    <p>
+
+        Đội tuyển Bồ Đào Nha luôn nổi bật với phong cách thi đấu kỹ thuật,
+        tinh thần chiến đấu và những mẫu áo đấu mang đậm bản sắc dân tộc.
+
+    </p>
+
+    <div id="more">
+
+        <p>
+
+            Football Fashion Portugal giới thiệu các mẫu áo sân nhà,
+            sân khách, áo tập, áo khoác và phụ kiện của đội tuyển.
+
+        </p>
+
+        <p>
+
+            Chúng tôi luôn cập nhật những thiết kế mới nhất
+            lấy cảm hứng từ màu cờ đỏ - xanh lá cùng biểu tượng quốc huy.
+
+        </p>
+
+    </div>
+
+    <button id="toggleBtn">
+
+        Xem thêm
+
+    </button>
+
+</section>
+
+<!--================ KITS ================-->
+
+<section id="kits">
+
+<h2>Bộ sưu tập áo đấu</h2>
+
+<div class="product">
+
+<div class="card">
+
+<img src="images/home-kit.jpg">
+
+<h3>Áo sân nhà 2026</h3>
+
+<p>1.950.000 VNĐ</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/away-kit.jpg">
+
+<h3>Áo sân khách</h3>
+
+<p>1.850.000 VNĐ</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/training.jpg">
+
+<h3>Áo tập luyện</h3>
+
+<p>1.250.000 VNĐ</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/jacket.jpg">
+
+<h3>Áo khoác đội tuyển</h3>
+
+<p>2.350.000 VNĐ</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ PLAYERS ================-->
+
+<section id="players">
+
+<h2>Ngôi sao đội tuyển</h2>
+
+<div class="player-grid">
+
+<div class="player">
+
+<img src="images/ronaldo.jpg">
+
+<h3>Cristiano Ronaldo</h3>
+
+<p>Đội trưởng huyền thoại của Bồ Đào Nha.</p>
+
+</div>
+
+<div class="player">
+
+<img src="images/bruno.jpg">
+
+<h3>Bruno Fernandes</h3>
+
+<p>Tiền vệ sáng tạo với khả năng kiến tạo hàng đầu.</p>
+
+</div>
+
+<div class="player">
+
+<img src="images/leao.jpg">
+
+<h3>Rafael Leão</h3>
+
+<p>Tốc độ, kỹ thuật và khả năng bứt phá.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ GALLERY ================-->
+
+<section id="gallery">
+
+<h2>Thư viện ảnh</h2>
+
+<div class="gallery">
+
+<img src="images/gallery1.jpg">
+
+<img src="images/gallery2.jpg">
+
+<img src="images/gallery3.jpg">
+
+<img src="images/gallery4.jpg">
+
+<img src="images/gallery5.jpg">
+
+<img src="images/gallery6.jpg">
+
+</div>
+
+</section>
+
+<!--================ CONTACT ================-->
+
+<section id="contact">
+
+<h2>Liên hệ</h2>
+
+<form id="contactForm">
+
+<input type="text"
+placeholder="Họ và tên"
+id="name">
+
+<input type="email"
+placeholder="Email"
+id="email">
+
+<textarea
+id="message"
+rows="6"
+placeholder="Nội dung">
+</textarea>
+
+<button type="submit">
+
+Gửi
+
+</button>
+
+</form>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+<h2>Portugal Football Fashion</h2>
+
+<p>
+
+© 2026 Portugal Football Fashion
+
+</p>
+
+<div class="icon">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-youtube"></i>
+
+<i class="fab fa-tiktok"></i>
+
+</div>
+
+</footer>
+
+<button id="topBtn">
+
+▲
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
